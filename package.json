@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "build": "babel --watch src --out-file bundle.js",
+    "launch": "nodemon --watch",
+    "start": "npm-run-all --parallel launch build"
+  },
+  "name": "node_starters1",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "nodemon": "^1.11.0",
+    "npm-run-all": "^4.1.1"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
